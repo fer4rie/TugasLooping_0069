@@ -48,7 +48,7 @@ void tampilPrima() {
 void tampilFibonacci() {
     inputAngka();
     if (cekFibonacci(angka))
-        cout << angka << " termasuk dalam deret Fibonacci.\n"
+        cout << angka << " termasuk dalam deret Fibonacci.\n";
     else
         cout << angka << " bukan termasuk dalam deret Fibonacci.\n";
 }
