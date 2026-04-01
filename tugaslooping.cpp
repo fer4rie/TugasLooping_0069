@@ -70,13 +70,13 @@ int main() { //main function menggunakan while loop
             case 1:
                 tampilPrima();
                 break;
-        case 2:
+            case 2:
                 tampilFibonacci();
                 break;
-        case 0:
+            case 0:
                 cout << "Program selesai. Terima kasih!\n";
                 return 0;
-        default:
+            default:
                 cout << "Pilihan tidak valid.\n";
         }
     }
