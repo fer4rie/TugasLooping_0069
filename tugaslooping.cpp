@@ -69,3 +69,6 @@ int main() { //main function menggunakan while loop
         case 1:
             tampilPrima();
             break;
+        case 2:
+            tampilFibonacci();
+            break;
