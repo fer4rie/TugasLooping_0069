@@ -15,3 +15,16 @@ bool cekPrima(int n) { // Bilangan prima adalah bilangan yang hanya memiliki dua
     }
     return true;
 }
+
+// Function untuk memeriksa apakah bilangan n termasuk dalam deret Fibonacci
+bool cekFibonacci(int n) {
+    if (n < 0) return false;
+    int a = 0, b = 1;
+    while (a <= n) {
+        if (a == n) return true;
+        int next = a + b;
+        a = b;
+        b = next;
+    }
+    return false;
+}
