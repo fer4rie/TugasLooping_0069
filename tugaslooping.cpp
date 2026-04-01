@@ -65,13 +65,14 @@ void menu() {
 
 int main() { //main function menggunakan while loop
     while (true) {
-     switch (pilihan) {  //menu pilihan melalui switch 
-        case 1:
-            tampilPrima();
-            break;
+        menu();
+        switch (pilihan) {  //menu pilihan melalui switch 
+            case 1:
+                tampilPrima();
+                break;
         case 2:
-            tampilFibonacci();
-            break;
+                tampilFibonacci();
+                break;
         case 0:
-            cout << "Program selesai. Terima kasih!\n";
-            return 0;
+                cout << "Program selesai. Terima kasih!\n";
+                return 0;
