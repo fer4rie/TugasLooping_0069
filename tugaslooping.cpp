@@ -65,7 +65,7 @@ void menu() {
 
 // Function menu
 void menu() {
-    cout << "\nMENU UTAMA \n";
+    cout << "\n=== MENU UTAMA ===\n";
     cout << "1. Cek Bilangan Prima\n";
     cout << "2. Cek Bilangan Fibonacci\n";
     cout << "0. Keluar\n";
