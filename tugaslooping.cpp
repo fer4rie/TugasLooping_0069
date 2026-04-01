@@ -65,3 +65,4 @@ void menu() {
 
 int main() { //main function menggunakan while loop
     while (true) {
+     switch (pilihan) {  //menu pilihan melalui switch case
