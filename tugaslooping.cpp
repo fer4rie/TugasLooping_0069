@@ -63,4 +63,5 @@ void menu() {
     cin >> pilihan;
 }
 
-
+int main() { //main function menggunakan while loop
+    while (true) {
