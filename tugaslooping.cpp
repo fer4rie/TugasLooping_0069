@@ -72,3 +72,6 @@ int main() { //main function menggunakan while loop
         case 2:
             tampilFibonacci();
             break;
+        case 0:
+            cout << "Program selesai. Terima kasih!\n";
+            return 0;
