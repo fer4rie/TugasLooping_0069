@@ -63,12 +63,4 @@ void menu() {
     cin >> pilihan;
 }
 
-// Function menu
-void menu() {
-    cout << "\n=== MENU UTAMA ===\n";
-    cout << "1. Cek Bilangan Prima\n";
-    cout << "2. Cek Bilangan Fibonacci\n";
-    cout << "0. Keluar\n";
-    cout << "Pilihan: ";
-    cin >> pilihan;
-}
+
