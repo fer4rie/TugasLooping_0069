@@ -76,3 +76,8 @@ int main() { //main function menggunakan while loop
         case 0:
                 cout << "Program selesai. Terima kasih!\n";
                 return 0;
+        default:
+                cout << "Pilihan tidak valid.\n";
+        }
+    }
+}
