@@ -43,3 +43,12 @@ void tampilPrima() {
     else
         cout << angka << " bukan bilangan prima.\n";
 }
+
+// Prosedur tampilkan hasil cek bilangan Fibonacci
+void tampilFibonacci() {
+    inputAngka();
+    if (cekFibonacci(angka))
+        cout << angka << " termasuk dalam deret Fibonacci.\n"
+    else
+        cout << angka << " bukan termasuk dalam deret Fibonacci.\n";
+}
